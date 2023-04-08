@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .ifylex{
+        @apply flex justify-center items-center gap-4
+    }
+    .fybtn{
+        @apply py-2 px-3 bg-orange-500 text-white hover:bg-orange-500/75 transition-all duration-150;
+    }
+}
