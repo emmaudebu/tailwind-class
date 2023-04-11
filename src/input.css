@@ -1,14 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap'); */
 
 
 
-@layer components{
-    .ifylex{
+@layer components {
+    .ifylex {
         @apply flex justify-center items-center gap-4
     }
-    .fybtn{
-        @apply py-2 px-3 bg-orange-500 text-white hover:bg-orange-500/75 transition-all duration-150;
+
+    .Ifeanyi {
+        @apply border border-gray-500 py-2 px-4 rounded-full ml-4
     }
+
+
 }

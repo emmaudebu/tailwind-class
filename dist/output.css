@@ -516,98 +516,70 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.ifylex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.fybtn {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+.Ifeanyi {
+  margin-left: 1rem;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.fybtn:hover {
-  background-color: rgb(249 115 22 / 0.75);
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-center {
+  justify-content: center;
 }
 
-.border {
-  border-width: 1px;
+.justify-around {
+  justify-content: space-around;
 }
 
-.border-2 {
-  border-width: 2px;
+.gap-7 {
+  gap: 1.75rem;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.gap-9 {
+  gap: 2.25rem;
 }
 
-.border-gray-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+.text-\[40px\] {
+  font-size: 40px;
 }
 
-.bg-sky-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
-.text-\[32px\] {
-  font-size: 32px;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-black {
   font-weight: 900;
 }
 
-.text-white {
+.text-blue-900 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap'); */
 
-.duration-150 {
-  transition-duration: 150ms;
-}
-
-.hover\:bg-orange-500\/75:hover {
-  background-color: rgb(249 115 22 / 0.75);
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }

@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      fontFamily: {
+        'DM Sans': ['DM Sans', 'sans-serif']
+
+      },
+    },
+    plugins: [],
+  }
 }
+
