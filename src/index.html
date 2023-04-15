@@ -11,22 +11,28 @@
 
 <body class=" font-DM Sans">
     <header class="hero-header">
-        <nav class=" flex justify-around items-center gap-9 mt-5 text-blue-900">
+        <nav class=" flex justify-around items-center gap-2 mt-5 text-blue-900">
             <h2 class="logo font-black text-lg">Startup 3</h2>
-            <ul class="menu flex  gap-7 items-center justify-center">
-                <li class="hover:cursor-pointer">Portfolio</li>
+            <ul class="menu flex  gap-7 items-center justify-center sm:hidden lg:flex hidden md:flex">
                 <li class="hover:cursor-pointer" >How it works</li>
                 <li class="hover:cursor-pointer" >Pricing</li>
                 <li class="hover:cursor-pointer" >About</li>
-                <li class="hover:cursor-pointer" >Login</li>
-                <li class="Ifeanyi hover:cursor-pointer">SignUp</li>
+                <li class="hover:cursor-pointer  " >Login</li>
+               
             </ul>
+            <div class="form hidden md:block">
+                <input type="text" placeholder="search"
+                    class="border border-sky-700 ifeanyi px-2 gap-y-3 h-11 rounded  "> <button
+                    class="Ifeanyi hover:cursor-pointer ">Search</button>
+            </div>
+            <div> <button class=" Ifeanyi hover:cursor-pointer ">Signin</button >
+               <button class=" Ifeanyi hover:cursor-pointer  bg-sky-600 text-white"> SignUp</button></div>
         </nav>
-        <div class="hero flex flex-col justify-center items-center ">
+        <!-- <div class="hero flex flex-col justify-center items-center ">
             <h1 class="hero-text font-black font-DM Sans al text-[40px] text-blue-900 ">
                 A high-quality solution startup website quickly
             </h1>
-        </div>
+        </div> -->
     </header>
 
 </body>
