@@ -6,35 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css">
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 
 <body class=" font-DM Sans">
-    <header class="hero-header">
-        <nav class=" flex justify-around items-center gap-2 mt-5 text-blue-900">
-            <h2 class="logo font-black text-lg">Startup 3</h2>
-            <ul class="menu flex  gap-7 items-center justify-center sm:hidden lg:flex hidden md:flex">
-                <li class="hover:cursor-pointer" >How it works</li>
-                <li class="hover:cursor-pointer" >Pricing</li>
-                <li class="hover:cursor-pointer" >About</li>
-                <li class="hover:cursor-pointer  " >Login</li>
-               
-            </ul>
-            <div class="form hidden md:flex">
-                <input type="text" placeholder="search"
-                    class="border border-sky-700 ifeanyi px-2 gap-y-3 h-11 rounded  "> <button
-                    class="Ifeanyi hover:cursor-pointer ">Search</button>
+    <header class="  mx-auto px-[117px] pt-10 h-screen  ">
+        <nav class="flex items-center justify-between mb-12">
+            <span class=" text-blue-700 font-bold text-[30px]">Startup 3</span>
+            <div class="menu flex items-center gap-5  ">
+                <ul class="menu-link flex justify-around gap-7 mr-5 font-DM Sans text-blue-700 font-semibold">
+                    <li>Portfolio</li>
+                    <li>How it Works</li>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Login</li>
+                </ul>
+                <button class="ml-5 border-grey-700 border-2 px-5 py-2 rounded-full text-blue-700">Sign In</button>
             </div>
-            <div class="  hidden md:flex"> <button class=" Ifeanyi hover:cursor-pointer  ">Signin</button>
-               <button class=" Ifeanyi hover:cursor-pointer  bg-sky-600 text-white "> SignUp</button></div>
-               <i class='bx bx-menu text-[85px] hidden text-blue-700'></i>
         </nav>
-        <!-- <div class="hero flex flex-col justify-center items-center ">
-            <h1 class="hero-text font-black font-DM Sans al text-[40px] text-blue-900 ">
-                A high-quality solution startup website quickly
-            </h1>
-        </div> -->
+        <section class="flex flex-col items-center justify-center text-center mt-11">
+
+            <div class="font-semibold text-[#1E0E62] text-5xl leading-snug ">A high-quality solution startup <br>
+                website
+                quickly</div>
+            <button
+                class="ml-5 border-grey-700 border-2  my-10 px-5 py-2 rounded-full border-none text-white bg-[#25DAC5]">Get
+                Started</button>
+            <img src="./images/Macbook Pro.png" alt="" class="banner  mb-10">
+            <section class="flex justify-center items-center my-9">
+                <p class="text-gray-400 text-lg px-6 ">Startup Framework works on devices supporting Retina Display.
+                    Feel the clarity in each pixel.</p>
+                <p class="text-gray-400 text-lg px-6 border-x-2 border-gray-400  ">There are a lot of different
+                    components that will help you
+                    create the perfect look and feel for
+                    your startup.</p>
+                <p class="text-gray-400 text-lg px-6 ">You can easily combine components in a variety ways for
+                    different design projects. It’s easy!</p>
+            </section>
+        </section>
+
+
     </header>
 
 </body>
